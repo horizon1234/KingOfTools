@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MagicTabView">
+        <!--文字颜色，这个应该是默认颜色-->
+        <attr name="textColor" format="color|integer"/>
+        <!--文字颜色，选中的颜色-->
+        <attr name="textSelectColor" format="color|integer"/>
+        <!--标题-->
+        <attr name="tabTitle" format="string|reference"/>
+        <!--lottie动画的源-->
+        <attr name="lottieImage" format="string"/>
+    </declare-styleable>
+</resources>
